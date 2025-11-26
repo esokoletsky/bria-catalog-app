@@ -1,16 +1,42 @@
-# React + Vite
+# Bria 3×3 Catalog Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app that uses the **Bria AI API** to generate a **3×3 product catalog** from a single product image.  
+Each catalog includes **3 unique environments** with **3 positional variations per environment**, perfect for e-commerce, branding, and marketing previews.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:**  
+https://bria-app.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Upload or reference a single **product image**
+- Automatically generates:
+  - 3 unique environments (e.g. studio, lifestyle, outdoor)
+  - 3 positional variations per environment
+- Renders a **3×3 grid layout**
+- Powered by **Bria AI v2 API**
+- Built with **React + Vite**
+- Deployed on **Netlify**
+- Environment variable support for secure API access
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite, JavaScript
+- **API:** Bria AI v2
+- **Styling:** CSS / Tailwind (if you’re using it)
+- **Deployment:** Netlify
+- **Version Control:** Git & GitHub
+
+---
+
+## 📦 Local Installation
+
+Clone the repository:
+
+git https://github.com/esokoletsky/bria-catalog-app.git
+cd bria-catalog-app
+npm install
+npm run dev
