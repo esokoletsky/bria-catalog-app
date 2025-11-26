@@ -222,7 +222,6 @@ function App() {
         {images.map((url, idx) => (
           <div key={idx} className='catalog-item'>
             <img src={url} alt={`Generated ${idx + 1}`} />
-            {/* ✅ open individual image in a new tab so the UI state is preserved */}
             <a href={url} target='_blank' rel='noopener noreferrer'>
               Open image
             </a>
