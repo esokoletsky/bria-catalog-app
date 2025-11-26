@@ -10,7 +10,8 @@ https://bria-app.netlify.app/
 
 ## ✨ Features
 
-- Upload or reference a single **product image**
+<img width="1227" height="1205" alt="Screenshot 2025-11-26 at 12 44 43 PM" src="https://github.com/user-attachments/assets/e4fa4783-7492-4aa5-98be-6b94b763fe31" />
+
 - Automatically generates:
   - 3 unique environments (e.g. studio, lifestyle, outdoor)
   - 3 positional variations per environment
