@@ -37,7 +37,7 @@ https://bria-app.netlify.app/
 
 Clone the repository:
 
-git https://github.com/esokoletsky/bria-catalog-app.git
-cd bria-catalog-app
-npm install
-npm run dev
+- git https://github.com/esokoletsky/bria-catalog-app.git
+- cd bria-catalog-app
+- npm install
+- npm run dev
